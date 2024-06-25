@@ -35,7 +35,7 @@ if (keystorePropertiesFile.exists()) {
 
 android {
     namespace "com.adeeteya.markdown_editor"
-    compileSdkVersion 33
+    compileSdkVersion 34
     ndkVersion flutter.ndkVersion
 
     compileOptions {
@@ -79,6 +79,4 @@ flutter {
 }
 
 dependencies {
-    implementation("androidx.activity:activity-ktx:$activity_version")
-
 }
